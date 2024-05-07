@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    transition: 0.2s linear;
+}
+body{
+    background-size: 100%;
+    background-image: url("./Home.png");   
+}
+/* header */
+.btn{
+    margin-top: 2rem;
+    width: 150px;
+    padding: 12px;
+    color: #fff;
+    background: rgb(60, 58, 58);
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: transparent;
+    transition: 0.5s;
+}
+.head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    position: 1.5rem 8%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+}
+.head .logo{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #fff;
+    padding-right: 10px;
+    margin-right: 20rem;
+    text-decoration: none;
+}
+.head .logo i{
+    color: tomato;
+    padding: 1rem;
+}
+.head .navbar a{
+    font-size: 1.1rem;
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+.head .navbar a:hover{
+    color: tomato;
+}
+.head .btn{
+    
+    color: tomato;
+    border: 1px solid rgb(29, 29, 29); 
+    font-size: 12px;
+    padding: 8px;
+}
+.editors{
+    background-color: rgb(245, 201, 201);
+    width: 150px;
+    height: 20px;
+}
+/* section */
+section{
+    padding: 200px  50px ;
+}
+.container .text{
+    line-height: 1.5rem;
+}
+.container .text .heading-one h1{
+    color: tomato;
+    line-height: 2.5rem;
+    font-size: xx-large;
+}
+.container .text .heading-one p{
+    color: #fff;
+    margin-top: 2rem;
+}
+button{
+    margin-top: 50px;
+    width: 150px;
+    padding: 10px;
+    background: none;
+    color: #ffffff;
+    font-size:larger ;
+    font-weight: bolder;
+    border: 2px solid rgb(54, 51, 50);
+    
+}
+button:hover{
+    background-color: tomato;
+    color: #fff;
+    transition: 2s;
+}
+
+br {
+    color: rgb(0, 255, 255);
+}
+span{
+    color: yellow;
+}
